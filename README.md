@@ -25,14 +25,14 @@ La aplicación está desarrollada con tecnologías web estándar, requiriendo ú
 
 ### Pasos de Instalación
 
-1. **Clonar el Repositorio**
+1. **Clonar el Repositorio en el Directorio Local**
    ```bash
    git clone https://github.com/fergulart/Challenge-Alura-Amigo-Secreto.git
    ```
 
 2. **Acceder al Directorio del Proyecto**
    ```bash
-   cd Challenge-Alura-Amigo-Secreto
+   cd Challenge-Alura-Amigo-Secreto-main
    ```
 
 3. **Iniciar la Aplicación**
