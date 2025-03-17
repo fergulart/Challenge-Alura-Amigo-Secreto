@@ -1,53 +1,52 @@
-# Challenge Alura - Amigo Secreto
+# Aplicación Amigo Secreto - Desafío Técnico Alura
 
-Este desafío consiste en una aplicación que permite a los usuarios ingresar nombres de amigos en una lista, realizar un sorteo aleatorio y determinar quién es el **"Amigo Secreto"**. Los usuarios pueden agregar nombres a través de un campo de texto y un botón **"Añadir"**, visualizar la lista y, finalmente, hacer clic en **"Sortear Amigo"** para seleccionar un nombre aleatorio, mostrando el resultado en pantalla.
+## Descripción del Proyecto
 
-⚙️ Funcionalidades ⚙️
+Una aplicación web interactiva diseñada para organizar sorteos de "Amigo Secreto" de manera eficiente y aleatoria. Esta herramienta permite a los usuarios registrar participantes, validar entradas, visualizar la lista completa y realizar un sorteo aleatorio con un solo clic, mostrando instantáneamente el resultado del participante seleccionado.
 
-- ✍️**Agregar nombres:** Los usuarios pueden ingresar nombres en un campo de texto y hacer clic en **"Añadir"** para agregarlos a la lista.
+## Características Principales
 
-   ![Agregar nombre](./assets/readme/funcion1.png)
+### Gestión de Participantes
+- **Registro de Nombres**: Interfaz intuitiva que permite la incorporación de participantes mediante un campo de texto y botón de confirmación.
+- **Sistema de Validación**: Verificación automática de entradas para prevenir campos vacíos o caracteres no permitidos.
 
-- ❗**Validación de entrada:** Si el campo de texto está vacío o contiene caracteres no válidos, el sistema mostrará una alerta solicitando un nombre válido.
+### Visualización en Tiempo Real
+- **Lista Dinámica**: Actualización automática e inmediata de la interfaz tras cada adición de participante.
+- **Transparencia del Proceso**: Visualización clara de todos los participantes registrados.
 
-   ![Alerta de validación](./assets/readme/funcion2.png)
+### Proceso de Sorteo
+- **Selección Aleatoria**: Algoritmo que garantiza la imparcialidad en la selección del "Amigo Secreto".
+- **Presentación de Resultados**: Interfaz clara que muestra el participante seleccionado al finalizar el sorteo.
 
-- 👀**Visualización dinámica:** Los nombres ingresados aparecerán en una lista actualizada automáticamente debajo del campo de entrada.
+## Guía de Instalación
 
-   ![Lista de nombres](./assets/readme/funcion3.png)
+### Requisitos Previos
+La aplicación está desarrollada con tecnologías web estándar, requiriendo únicamente un navegador moderno como Chrome, Firefox, Edge o Safari. Para desarrollo, se recomienda utilizar Visual Studio Code con la extensión Live Server para una experiencia de desarrollo optimizada.
 
-- 🎲**Sorteo aleatorio:** Al hacer clic en el botón **"Sortear Amigo"**, el sistema seleccionará aleatoriamente un nombre de la lista y lo mostrará en pantalla.
+### Pasos de Instalación
 
-   ![Resultado sorteo](./assets/readme/funcion4.png)
+1. **Clonar el Repositorio**
+   ```bash
+   git clone https://github.com/Sodi0/challenge-amigo-secreto_esp-main.git
+   ```
 
-## Comenzando 🚀
+2. **Acceder al Directorio del Proyecto**
+   ```bash
+   cd challenge-amigo-secreto_esp-main
+   ```
 
-Sigue estos pasos para obtener una copia del proyecto y empezar a trabajar localmente.
+3. **Iniciar la Aplicación**
+   Abra el archivo `index.html` directamente en su navegador o utilice un servidor local para una experiencia más completa.
 
-### Pre-requisitos 📋
+### Ejecución en Entorno de Desarrollo
+No se requieren configuraciones adicionales ni dependencias externas. La aplicación funciona directamente desde el navegador a través del archivo HTML principal.
 
-No necesitas herramientas adicionales para ejecutar este proyecto. Solo asegúrate de tener un navegador web como Firefox, Chrome, o sus variaciones. Si trabajas con Visual Studio Code, puedes utilizar la extensión [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para una experiencia más fluida.
+## Tecnologías Implementadas
 
-### Instalación 🔧
+- **HTML5**: Estructura semántica y arquitectura de la interfaz de usuario.
+- **CSS3**: Estilización avanzada para una experiencia visual atractiva y responsiva.
+- **JavaScript ES6+**: Lógica de aplicación y funcionalidades interactivas que permiten la gestión dinámica del contenido.
 
-1. Clona el repositorio en tu máquina local:
-    ```bash
-    git clone https://github.com/Sodi0/challenge-amigo-secreto_esp-main.git
-    ```
+## Capturas de Pantalla
 
-2. Navega al directorio del proyecto:
-    ```bash
-    cd challenge-amigo-secreto_esp-main
-    ```
-
-3. Abre el archivo `index.html` en tu navegador favorito para empezar a usar la aplicación.
-
-### Ejecución local 🔥
-
-Este proyecto no requiere ninguna instalación adicional. Simplemente abre el archivo `index.html` en tu navegador y empieza a usar la aplicación.
-
-## Construido con 🛠️
-
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Para la estructura y diseño de la página.
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Para los estilos visuales.
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Para la lógica de la aplicación (agregar nombres, realizar el sorteo, etc.).
+Las imágenes que ilustran cada funcionalidad se encuentran disponibles en el repositorio original bajo la carpeta `/assets/readme/`.
