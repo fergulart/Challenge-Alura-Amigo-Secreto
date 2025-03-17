@@ -27,12 +27,12 @@ La aplicación está desarrollada con tecnologías web estándar, requiriendo ú
 
 1. **Clonar el Repositorio**
    ```bash
-   git clone https://github.com/Sodi0/challenge-amigo-secreto_esp-main.git
+   git clone https://github.com/fergulart/Challenge-Alura-Amigo-Secreto.git
    ```
 
 2. **Acceder al Directorio del Proyecto**
    ```bash
-   cd challenge-amigo-secreto_esp-main
+   cd Challenge-Alura-Amigo-Secreto
    ```
 
 3. **Iniciar la Aplicación**
@@ -47,6 +47,4 @@ No se requieren configuraciones adicionales ni dependencias externas. La aplicac
 - **CSS3**: Estilización avanzada para una experiencia visual atractiva y responsiva.
 - **JavaScript ES6+**: Lógica de aplicación y funcionalidades interactivas que permiten la gestión dinámica del contenido.
 
-## Capturas de Pantalla
 
-Las imágenes que ilustran cada funcionalidad se encuentran disponibles en el repositorio original bajo la carpeta `/assets/readme/`.
